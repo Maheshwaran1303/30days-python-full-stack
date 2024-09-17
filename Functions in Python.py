@@ -26,7 +26,7 @@ def greet(name):
     print(f"Hello, {name}!")
 
 # Calling the function with an argument
-greet("Alice")
+greet("Mahesh")
 
 
 # 3. Returning Values from Functions
@@ -222,3 +222,4 @@ def sum_natural_numbers(n):
         return 1
     else:
         return n + sum_natural_numbers(n - 1)
+
