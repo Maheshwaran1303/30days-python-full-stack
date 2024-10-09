@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improved Fan Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Fan Control System</h1>
+        <div id="fan" class="fan">
+            <div class="blade"></div>
+            <div class="blade"></div>
+            <div class="blade"></div>
+        </div>
+        <p id="status">Fan is off</p>
+        <p id="speed">Speed: 0</p>
+        
+        <div class="controls">
+            <button id="onButton" onclick="turnOn()">Fan On</button>
+            <button id="offButton" onclick="turnOff()" disabled>Fan Off</button>
+            <button onclick="setSpeed(1)">Speed 1</button>
+            <button onclick="setSpeed(2)">Speed 2</button>
+            <button onclick="setSpeed(3)">Speed 3</button>
+        </div>
+    </div>
+    
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
