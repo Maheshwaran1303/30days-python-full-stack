@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Individual Border Styles</title>
+    <style>
+        .one {
+            border-top-style: dotted;
+            border-right-style: solid;
+            border-bottom-style: dashed;
+            border-left-style: double;
+        }
+
+        .two {
+            border-style: dotted solid dashed double;
+        }
+
+        .three {
+            border-style: dotted solid double;
+        }
+
+        .four {
+
+            border-style: dotted solid;
+        }
+
+        .five {
+            border-style: dotted;
+        }
+
+        .note {
+            background-color: rgb(230, 230, 124);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Individual Border Sides</h1>
+    <div class="one">
+        <p> border-top-style: dotted; <br>
+            border-right-style: solid; <br>
+            border-bottom-style: dashed; <br>
+            border-left-style: double;</p>
+        <ul>
+            <li>top border is dotted</li>
+            <li>right border is solid</li>
+            <li>bottom border is dashed</li>
+            <li>left border is double</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="two">
+        <p>border-style: dotted solid double dashed;</p>
+        <ul>
+            <li>top border is dotted</li>
+            <li>right border is solid</li>
+            <li>bottom border is dashed</li>
+            <li>left border is double</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="three">
+        <p>border-style: dotted solid double;</p>
+        <ul>
+            <li>top border is dotted</li>
+            <li>right and left borders are solid</li>
+            <li>bottom border is double</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="four">
+        <p>border-style: dotted solid;</p>
+        <ul>
+            <li>top and bottom borders are dotted</li>
+            <li>right and left borders are solid</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class=five>
+        <p>border-style: dotted;</p>
+        <ul>
+            <li>all four borders are dotted</li>
+        </ul>
+    </div>
+    <br>
+
+    <div class="note">
+        <b>Note:</b>The border-style property is used in the example above. However, it also works with border-width and border-color.
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Borders</title>
+    <style>
+        .example{
+            background-color: rgb(240, 236, 236);
+        }
+        p.dotted {
+            border-style: dotted;
+        }
+
+        p.dashed {
+            border-style: dashed;
+        }
+
+        p.solid {
+            border-style: solid;
+        }
+
+        p.double {
+            border-style: double;
+        }
+
+        p.groove {
+            border-style: groove;
+        }
+
+        p.ridge {
+            border-style: ridge;
+        }
+
+        p.inset {
+            border-style: inset;
+        }
+
+        p.outset {
+            border-style: outset;
+        }
+
+        p.none {
+            border-style: none;
+        }
+
+        p.hidden {
+            border-style: hidden;
+        }
+
+        p.mix {
+            border-style: dotted dashed solid double;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Border Properties</h1>
+    <div class="defenition">
+        <h3>The border-style property specifies what kind of border to display.</h3>
+
+        <p>The following values are allowed:</p>
+
+        <ul>
+            <li>dotted - Defines a dotted border</li>
+            <li>dashed - Defines a dashed border</li>
+            <li>solid - Defines a solid border</li>
+            <li>double - Defines a double border</li>
+            <li>groove - Defines a 3D grooved border. The effect is similar to a 3D border and the effect depends on the
+                border-color value </li>
+            <li>ridge - Defines a 3D ridged border. The effect is similar to a 3D border and the effect depends on the
+                border-color value</li>
+            <li>inset - Defines an 3D inset border. The effect is similar to a 3D border and the effect depends on the
+                border-color value</li>
+            <li>outset - Defines an 3D outset border. The effect is similar to a 3D border and the effect depends on the
+                border-color value</li>
+            <li>none - Defines no border</li>
+            <li>hidden - Defines a hidden border</li>
+        </ul>
+
+        <p class="important">The border-style property can have from one to four values <b>(for the top border, right
+                border, bottom border, and the left border).</b></p>
+    </div>
+
+    <div class="example">
+        <p class="dotted">A dotted border.</p>
+        <p class="dashed">A dashed border.</p>
+        <p class="solid">A solid border.</p>
+        <p class="double">A double border.</p>
+        <p class="groove">A groove border.</p>
+        <p class="ridge">A ridge border.</p>
+        <p class="inset">An inset border.</p>
+        <p class="outset">An outset border.</p>
+        <p class="none">No border.</p>
+        <p class="hidden">A hidden border.</p>
+        <p class="mix">A mixed border.</p>
+
+    </div>
+
+</body>
+
+</html>
